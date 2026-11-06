@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104" role="img" aria-label="Kıvırcık saçlı çizim oyuncu avatarı">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e7bd9d"/><stop offset="1" stop-color="#b17d91"/></linearGradient><clipPath id="clip"><circle cx="52" cy="52" r="52"/></clipPath></defs>
+  <g clip-path="url(#clip)"><rect width="104" height="104" fill="url(#bg)"/><circle cx="17" cy="15" r="24" fill="#fff" opacity=".13"/>
+    <path d="M4 107q8-26 29-30l19 11 19-11q21 4 29 30" fill="#3c355b"/><path d="M43 74h18v18q-9 9-18 0" fill="#ae765b"/>
+    <ellipse cx="52" cy="55" rx="25" ry="32" fill="#bd8668"/>
+    <g fill="#25232e"><circle cx="27" cy="42" r="11"/><circle cx="34" cy="29" r="13"/><circle cx="48" cy="24" r="13"/><circle cx="64" cy="25" r="13"/><circle cx="77" cy="34" r="12"/><circle cx="79" cy="47" r="9"/></g>
+    <path d="M31 48q21-12 44 0" fill="none" stroke="#25232e" stroke-width="7" stroke-linecap="round"/>
+    <path d="M35 56h13m9 0h13" stroke="#3e3030" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="42" cy="61" r="2" fill="#29242a"/><circle cx="63" cy="61" r="2" fill="#29242a"/>
+    <path d="M52 62l-2 9h4m-11 5q9 6 18 0" fill="none" stroke="#865448" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 88q16 8 32 0" fill="none" stroke="#d1b2df" stroke-width="2" opacity=".7"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104" role="img" aria-label="Gülümseyen çizim oyuncu avatarı">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#d9dfb2"/><stop offset="1" stop-color="#79b59a"/></linearGradient><clipPath id="clip"><circle cx="52" cy="52" r="52"/></clipPath></defs>
+  <g clip-path="url(#clip)"><rect width="104" height="104" fill="url(#bg)"/><circle cx="82" cy="19" r="25" fill="#fff" opacity=".17"/>
+    <path d="M8 107q5-25 28-30l16 9 16-9q23 5 28 30" fill="#284b52"/><path d="M43 75h18v17q-9 9-18 0" fill="#cf916c"/>
+    <ellipse cx="52" cy="51" rx="27" ry="34" fill="#2d2930"/><ellipse cx="52" cy="56" rx="23" ry="29" fill="#d8a07a"/>
+    <path d="M25 48q-5-31 18-35 21-12 38 8 4 8-1 23-9-13-17-17-11 14-36 17z" fill="#28242b"/>
+    <path d="M36 54q5-3 11 0m11 0q5-3 11 0" fill="none" stroke="#49332e" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="42" cy="59" r="2" fill="#29242a"/><circle cx="63" cy="59" r="2" fill="#29242a"/>
+    <path d="M52 60l-2 10h4m-11 7q9 8 19 0" fill="none" stroke="#975d4c" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 89q16 8 32 0" fill="none" stroke="#e9d6a6" stroke-width="2" opacity=".7"/>
+  </g>
+</svg>

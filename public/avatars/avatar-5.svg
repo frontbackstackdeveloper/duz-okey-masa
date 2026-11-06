@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104" role="img" aria-label="Okey oyuncu avatarı">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#b9d8ed"/><stop offset="1" stop-color="#789dbb"/></linearGradient><clipPath id="clip"><circle cx="52" cy="52" r="52"/></clipPath></defs>
+  <g clip-path="url(#clip)"><rect width="104" height="104" fill="url(#bg)"/>
+  <circle cx="79" cy="19" r="22" fill="#fff" opacity=".13"/><circle cx="14" cy="92" r="30" fill="#fff" opacity=".09"/>
+  <path d="M8 108Q11 84 34 80L52 87L70 80Q94 84 98 108Z" fill="#354d83"/>
+  <path d="M44 75h16v17Q52 99 44 91Z" fill="#edc5a1"/>
+  <path d="M25 54Q19 28 46 24Q74 19 79 44L76 55Q69 44 56 43Q40 49 29 45Z" fill="#503b30"/>
+  <ellipse cx="52" cy="57" rx="25" ry="32" fill="#edc5a1"/>
+  <path d="M29 48Q42 49 53 43Q64 49 75 44L75 38Q48 24 29 42Z" fill="#503b30"/>
+  <ellipse cx="27" cy="61" rx="4" ry="7" fill="#edc5a1"/><ellipse cx="77" cy="61" rx="4" ry="7" fill="#edc5a1"/>
+  <path d="M35 55h12M58 55h12" stroke="#503b30" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="41" cy="61" r="2" fill="#292720"/><circle cx="64" cy="61" r="2" fill="#292720"/>
+  <path d="M51 61l-2 10h5" fill="none" stroke="#9c5949" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M44 77Q52 82 61 76" fill="none" stroke="#853e3d" stroke-width="2" stroke-linecap="round"/>
+  <g fill="none" stroke="#31434e" stroke-width="3.2"><rect x="29" y="56" width="20" height="13" rx="5"/><rect x="55" y="56" width="20" height="13" rx="5"/><path d="M49 61h6"/></g>
+  <path d="M35 88Q52 97 69 88" fill="none" stroke="#fff" opacity=".22" stroke-width="2"/>
+  </g></svg>
