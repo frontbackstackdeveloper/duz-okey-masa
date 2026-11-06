@@ -1,26 +1,29 @@
 # Düz Okey Masası
 
-Arkadaşlarla bağlantı üzerinden oynanabilen dört kişilik normal Okey oyunu. Eksik koltuklara botlar katılır.
+Arkadaşlarımla farklı yerlerdeyken de aynı masaya oturabilelim diye hazırladığım, tarayıcıdan oynanan **normal Okey** oyunu. 101 değil; taşları ıstakada dizip elini tamamlayınca son taşı atarak bitiriyorsun.
 
-**Canlı oyun:** https://duz-okey-masa-2026.tamer3535.chatgpt.site
+**[Oyunu aç](https://duz-okey-masa-2026.tamer3535.chatgpt.site)**
 
-## Özellikler
+## Nasıl oynanır?
 
-- Oda bağlantısıyla katılma; 2 veya 3 gerçek oyuncuyla oynayabilme
-- Sunucu tarafında dağıtım, sıra, okey ve bitiş kontrolü
-- Eksik koltuklar için bot oyuncular
-- İki sıralı, sürükle bırak destekli ıstaka
-- Oyuncu başına atılan taş alanı, hamle animasyonları, sesler ve emojiler
-- Sekiz çizim avatar; kişisel fotoğraf içermez
-- Aynı tarayıcıda yeni oda açıldığında eski oda bağlantısını kapatma
+İsmini ve avatarını seçip bir oda kuruyorsun. Çıkan bağlantıyı arkadaşlarına gönderiyorsun; herkes gelince oyunu başlatıyorsun. Masada **1, 2, 3 veya 4 gerçek oyuncu** olabilir. Boş kalan koltuklara botlar oturur. Dört arkadaş geldiğinde masa tamamen gerçek oyunculardan oluşur.
 
-## Teknoloji
+## Oyunda neler var?
 
-Next.js / React, TypeScript, Cloudflare Workers ve D1. Canlı sürüm ChatGPT Sites üzerinde barındırılır. Oda durumları D1 veritabanında, oyuncunun ıstaka dizilimi tarayıcıda saklanır.
+- Taşları sürükleyerek dizebildiğin iki sıralı ıstaka
+- Her oyuncunun yanında ayrı atılan taş alanı
+- Botların hamlelerini gösteren animasyonlar, sıra uyarıları ve ses efektleri
+- Masada emoji gönderme ve sekiz çizim avatar seçeneği
+- Normal Okey perleri, serileri ve çiftle bitiş için oyun kontrolü
+- Aynı tarayıcıdan yeni oda kurulduğunda eski oda bağlantısının kapanması
+
+## Teknik yapı
+
+Arayüzü React, Next.js ve TypeScript ile hazırladım. Oyun kuralları ve oda işlemleri sunucu tarafında çalışıyor; oda bilgileri Cloudflare D1'de saklanıyor. Istakada yaptığın dizilim ise kendi tarayıcında kalıyor.
 
 ## Yerelde çalıştırma
 
-Node.js 22.13+ gerekir.
+Node.js 22.13 veya üzeri gerekli. Bağımlılıkları kurup projeyi derledikten sonra yerel veritabanı tablolarını oluşturabilirsin:
 
 ```sh
 npm ci
@@ -30,6 +33,6 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 npm start -- --port 8788
 ```
 
-Ardından `http://127.0.0.1:8788` adresini açın. Testler: `node --experimental-strip-types tests/game.mjs`, `node --experimental-strip-types tests/rack.mjs` ve çalışan yerel sunucuda `node tests/http.mjs`.
+Oyun `http://127.0.0.1:8788` adresinde açılır. Kuralları `node --experimental-strip-types tests/game.mjs`, ıstakayı `node --experimental-strip-types tests/rack.mjs` ile test edebilirsin. Sunucu çalışırken `node tests/http.mjs` oda akışını kontrol eder.
 
-Bu depo canlı Sites projesinin kaynak kodu için ayrı bir vitrin kopyasıdır; GitHub'a gönderilen değişiklikler canlı oyunu otomatik güncellemez. `.openai/hosting.json` içindeki proje kimliği bu kopyada kaldırılmıştır.
+Bu GitHub deposu canlı oyunun kaynak kopyasıdır. Buraya gönderilen değişiklikler oyunu otomatik olarak güncellemez.
